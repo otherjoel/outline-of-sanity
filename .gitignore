@@ -1,4 +1,5 @@
 *.html
+*.css
 *.ltx
 *.pdf
 *.out
