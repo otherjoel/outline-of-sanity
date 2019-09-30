@@ -1,0 +1,12 @@
+*.html
+*.ltx
+*.pdf
+*.out
+*.swp
+*.bak
+*.aux
+*.log
+*.xml
+*.toc
+compiled/
+.DS_Store
