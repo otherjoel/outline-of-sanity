@@ -1,7 +1,7 @@
 #lang pollen
 
-I. SOME GENERAL IDEAS
-1. THE BEGINNING OF THE QUARREL
+◊define-meta[part]{I. SOME GENERAL IDEAS}
+◊define-meta[chapter]{1.1. The Beginning of the Quarrel}
 
 I have been asked to republish these notes---which appeared in a weekly paper---as a rough sketch of certain aspects of the institution of Private Property, now so completely forgotten amid the journalistic jubilations over Private Enterprise. The very fact that the publicists say so much of the latter and so little of the former is a measure of the moral tone of the times. A pickpocket is obviously a champion of private enterprise. But it would perhaps be an exaggeration to say that a pickpocket is a champion of private property.  The point about Capitalism and Commercialism, as conducted of late, is that they have really preached the extension of business rather than the preservation of belongings; and have at best tried to disguise the pickpocket with some of the virtues of the pirate.  The point about Communism is that it only reforms the pickpocket by forbidding pockets.
 

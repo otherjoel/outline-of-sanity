@@ -10,10 +10,17 @@
 </head>
 <body>
     <header>
+        <h1><a class="homelink" href="index.html">The Outline of Sanity</a>
+        ◊when/splice[(hash-ref metas 'part)]{
+        : <a class="partlink" href="◊part-href[]">◊hash-ref[metas 'part]</a>
+        }
+        </h1>
 
+        ◊when/splice[(hash-ref metas 'chapter)]{ ◊(->html (chapter-title)) }
     </header>
+
     <main>
-    ◊(->html doc #:splice? #t)
+        ◊(->html doc #:splice? #t)
     </main>
 </body>
 

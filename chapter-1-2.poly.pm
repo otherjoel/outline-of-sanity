@@ -1,7 +1,7 @@
 #lang pollen
 
-I. SOME GENERAL IDEAS
-2. THE PERIL OF THE HOUR
+◊define-meta[part]{I. SOME GENERAL IDEAS}
+◊define-meta[chapter]{1.2. THE PERIL OF THE HOUR}
 
 When we are for a moment satisfied, or sated, with reading the latest news of the loftiest social circles, or the most exact records of the most responsible courts of justice, we naturally turn to the serial story in the newspaper, called "Poisoned by Her Mother" or "The Mystery of the Crimson Wedding Ring," in search of something calmer and more quietly convincing, more restful, more domestic, and more like real life.  But as we turn over the pages, in passing from the incredible fact to the comparatively credible fiction, we are very likely to encounter a particular phrase on the general subject of social degeneracy.  It is one of a number of phrases that seem to be kept in solid blocks in the printing-offices of newspapers. Like most of these solid statements, it is of a soothing character. It is like the headline of "Hopes of a Settlement," by which we learn that things are unsettled; or that topic of the "Revival of Trade," which it is part of the journalistic trade periodically to revive. The sentence to which I refer is to this effect:  that the fears about social degeneracy need not disturb us, because such fears have been expressed in every age; and there are always romantic and retrospective persons, poets, and such riff-raff, who look back to imaginary "good old times."
 
