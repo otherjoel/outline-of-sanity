@@ -58,5 +58,5 @@
          [bits (string-split meta)]
          [outline-num (first bits)]
          [title (string-join (drop bits 1))])
-    `(h2 (span [[class "chapter-outline-num"]] ,outline-num)
+    `(h2 [[class "chapter-title"]] (span [[class "chapter-outline-num"]] ,outline-num)
          " " ,title)))

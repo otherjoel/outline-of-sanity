@@ -15,12 +15,36 @@
         : <a class="partlink" href="◊part-href[]">◊hash-ref[metas 'part]</a>
         }
         </h1>
+        <nav>
+            ◊when/splice[(hash-ref metas 'chapter)]{ ◊(->html (chapter-title)) }
 
-        ◊when/splice[(hash-ref metas 'chapter)]{ ◊(->html (chapter-title)) }
+            <div class="prev">◊when/splice[(previous here)]{
+                <a class="pageturn" href="◊previous[here]">←<br>
+                <span class="arrowtext">Previous Chapter</span></a>
+            } </div>
+            <div class="next">◊when/splice[(next here)]{
+                <a class="pageturn" href="◊next[here]">→<br>
+                <span class="arrowtext">Next Chapter</span></a>
+            } </div>
+        </nav>
     </header>
 
     <main>
         ◊(->html doc #:splice? #t)
     </main>
+
+    <footer>
+        <nav>
+            <div class="prev">◊when/splice[(previous here)]{
+                <a class="pageturn" href="◊previous[here]">←<br>
+                <span class="arrowtext">Previous Chapter</span></a>
+            } </div>
+            <div class="next">◊when/splice[(next here)]{
+                <a class="pageturn" href="◊next[here]">→<br>
+                <span class="arrowtext">Next Chapter</span></a>
+            } </div>
+        </nav>
+
+    </footer>
 </body>
 
