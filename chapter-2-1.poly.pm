@@ -1,7 +1,7 @@
 #lang pollen
 
-II. SOME ASPECTS OF BIG BUSINESS
-1. THE BLUFF OF THE BIG SHOPS
+◊define-meta[part]{II. SOME ASPECTS OF BIG BUSINESS}
+◊define-meta[chapter]{2.1. The Bluff of the Big Shops}
 
 Twice in my life has an editor told me in so many words that he dared not print what I had written, because it would offend the advertisers in his paper.  The presence of such pressure exists everywhere in a more silent and subtle form.  But I have a great respect for the honesty of this particular editor; for it was, evidently as near to complete honesty as the editor of an important weekly magazine can possibly go. He told the truth about the falsehood he had to tell.
 

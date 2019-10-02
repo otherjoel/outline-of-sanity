@@ -1,7 +1,7 @@
 #lang pollen
 
-V. A NOTE ON EMIGRATION
-1. THE NEED OF A NEW SPIRIT
+◊define-meta[part]{V. A NOTE ON EMIGRATION}
+◊define-meta[chapter]{5.1. The Need of a New Spirit}
 
 Before closing these notes, with some words on the colonial aspect of democratic distribution, it will be well to make some acknowledgment of the recent suggestion of so distinguished a man as Mr. John Galsworthy. Mr. Galsworthy is a man for whom I have the very warmest regard; for a human being who really tries to be fair is something very like a monster and miracle in the long history of this merry race of ours.  Sometimes, indeed, I get a little exasperated at being so persistently excused.  I can imagine few things more annoying, to a free-born and properly constituted Christian, than the thought that if he did choose to wait for Mr. Galsworthy behind a wall, knock him down with a brick, jump on him with heavy boots, and so on, Mr. Galsworthy would still faintly gasp that it was only the fault of the System; that the System made bricks and the System heaved bricks and the System went about wearing heavy boots, and so on. As a human being, I should feel a longing for a little human justice, after all that inhuman mercy.
 

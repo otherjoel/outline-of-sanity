@@ -1,7 +1,7 @@
 #lang pollen
 
-IV. SOME ASPECTS OF MACHINERY
-3. THE HOLIDAY OF THE SLAVE
+◊define-meta[part]{IV. SOME ASPECTS OF MACHINERY}
+◊define-meta[chapter]{4.3. The Holiday of the Slave}
 
 I have sometimes suggested that industrialism of the American type, with its machinery and mechanical hustle, will some day be preserved on a truly American model; I mean in the manner of the Red Indian Reservation.  As we leave a patch of forest for savages to hunt and fish in, so a higher civilization might leave a patch of factories for those who are still at such a stage of intellectual infancy as really to want to see the wheels go round. And as the Red Indians could still, I suppose, tell their quaint old legends of a red god who smoked a pipe or a red hero who stole the sun and moon, so the simple folk in the industrial enclosure could go on talking of their own Outline of History and discussing the evolution of ethics, while all around them a more mature civilization was dealing with real history and serious philosophy. I hesitate to repeat this fancy here; for, after all, machinery is their religion, or at any rate superstition, and they do not like it to be treated with levity.  But I do think there is something to be said for the notion of which this fancy might stand as a sort of symbol; for the idea that a wiser society would eventually treat machines as it treats weapons, as something special and dangerous and perhaps more directly under a central control.  But however this may be, I do think the wildest fancy of a manufacturer kept at bay like a painted barbarian is much more sane than a serious scientific alternative now often put before us.  I mean what its friends call the Leisure State, in which everything is to be done by machinery. It is only right to say a word about this suggestion in comparison with our own.
 

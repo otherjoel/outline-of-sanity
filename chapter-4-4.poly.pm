@@ -1,7 +1,7 @@
 #lang pollen
 
-IV. SOME ASPECTS OF MACHINERY
-4. THE FREE MAN AND THE FORD CAR
+◊define-meta[part]{IV. SOME ASPECTS OF MACHINERY}
+◊define-meta[chapter]{4.4. The Free Man and the Ford Car}
 
 I am not a fanatic; and I think that machines may be of considerable use in destroying machinery.  I should generously accord them a considerable value in the work of exterminating all that they represent. But to put the truth in those terms is to talk in terms of the remote conclusion of our slow and reasonable revolution. In the immediate situation the same truth may be stated in a more moderate way.  Towards all typical things of our time we should have a rational charity.  Machinery is not wrong; it is only absurd. Perhaps we should say it is merely childish, and can even be taken in the right spirit by a child.  If, therefore, we find that some machine enables us to escape from an inferno of machinery, we cannot be committing a sin though we may be cutting a silly figure, like a dragoon rejoining his regiment on an old bicycle. What is essential is to realize that there is something ridiculous about the present position, something wilder than any Utopia. For instance, I shall have occasion here to note the proposal of centralized electricity, and we could justify the use of it so long as we see the joke of it.  But, in fact, we do not even see the joke of the waterworks and the water company. It is almost too broadly comic that an essential of life like water should be pumped to us from nobody knows where, by nobody knows whom, sometimes nearly a hundred miles away. It is every bit as funny as if air were pumped to us from miles away, and we all walked about like divers at the bottom of the sea. The only reasonable person is the peasant who owns his own well. But we have a long way to go before we begin to think about being reasonable.
 

@@ -1,7 +1,7 @@
 #lang pollen 
 
-III. SOME ASPECTS OF THE LAND
-2. VOWS AND VOLUNTEERS
+◊define-meta[part]{III. SOME ASPECTS OF THE LAND}
+◊define-meta[chapter]{3.2. Vows and Volunteers}
 
 We have sometimes been asked why we do not admire advertisers quite so much as they admire themselves.  One answer is that it is of their very nature to admire themselves.  And it is of the very nature of our task that people must be taught to criticize themselves; or rather (preferably) to kick themselves.  They talk about Truth in Advertising; but there cannot be any such thing in the sharp sense in which we need truth in politics.  It is impossible to put in the cheery terms of "publicity" either the truth about how bad things are, or the truth about how hard it will be to cure them. No advertiser is so truthful as to say, "Do your best with our rotten old typewriter; we can't get anything better just now." But we have really got to say, "Do your best with your rotten old machine of production; don't let it fall to pieces too suddenly." We seldom see a gay and conspicuous hoarding inscribed, "You are in for a rough time if you use our new kitchen-range." But we have really got to say to our friends, "You are in for a rough time if you start new farms on your own; but it is the right thing." We cannot pretend to be offering merely comforts and conveniences. Whatever our ultimate view of labour-saving machinery, we cannot offer our ideal as a labour-saving machine.  There is no more question of comfort than there is for a man in a fire, a battle, or a shipwreck. There is no way out of the danger except the dangerous way.
 

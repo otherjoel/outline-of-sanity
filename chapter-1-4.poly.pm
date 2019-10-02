@@ -1,7 +1,7 @@
 #lang pollen
 
-I. SOME GENERAL IDEAS
-4. ON A SENSE OF PROPORTION
+◊define-meta[part]{I. SOME GENERAL IDEAS}
+◊define-meta[chapter]{1.4. On a Sense of Proportion}
 
 Those of us who study the papers and the parliamentary speeches with proper attention must have by this time a fairly precise idea of the nature of the evil of Socialism.  It is a remote Utopian dream impossible of fulfilment and also an overwhelming practical danger that threatens us at every moment.  It is only a thing that is as distant as the end of the world and as near as the end of the street. All that is clear enough; but the aspect of it that arrests me at this moment is more especially the Utopian aspect. A person who used to write in the Daily Mail paid some attention to this aspect; and represented this social ideal, or indeed almost any other social ideal, as a sort of paradise of poltroons. He suggested that "weaklings" wished to be protected from the strain and stress of our vigorous individualism, and so cried out for this paternal government or grand-motherly legislation.  And it was while I was reading his remarks, with a deep and never-failing enjoyment, that the image of the Individualist rose before me; of the sort of man who probably writes such remarks and certainly reads them.
 

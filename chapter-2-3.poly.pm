@@ -1,7 +1,7 @@
 #lang pollen
 
-II. SOME ASPECTS OF BIG BUSINESS
-3. A CASE IN POINT
+◊define-meta[part]{II. SOME ASPECTS OF BIG BUSINESS}
+◊define-meta[chapter]{2.3. A Case in Point}
 
 It is as natural to our commercial critics to argue in a circle as to travel on the Inner Circle.  It is not mere stupidity, but it is mere habit; and it is not easy either to break into or to escape from that iron ring.  When we say things can be done, we commonly mean either that they could be done by the mass of men, or else by the ruler of the State.  I gave an example of something that could be done quite easily by the mass; and here I will give an example of something that could be done quite easily by the ruler. But we must be prepared for our critics beginning to argue in a circle and saying that the present populace will never agree or the present ruler act in that way.  But this complaint is a confusion. We are answering people who call our ideal impossible in itself. If you do not want it, of course, you will not try to get it; but do not say that because you do not want it, it follows that you could not get it if you did want it.  A thing does not become intrinsically impossible merely by a mob not trying to obtain it; nor does a thing cease to be practical politics because no politician is practical enough to do it.
 

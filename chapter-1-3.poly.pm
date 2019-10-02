@@ -1,7 +1,7 @@
 #lang pollen
 
 ◊define-meta[part]{I. SOME GENERAL IDEAS}
-◊define-meta[chapter]{1.3. THE CHANCE OF RECOVERY}
+◊define-meta[chapter]{1.3. The Chance of Recovery}
 
 Once upon a time, or conceivably even more than once, there was a man who went into a public-house and asked for a glass of beer. I will not mention his name, for various and obvious reasons; it may be libel nowadays to say this about a man; or it may lay him open to police prosecution under the more humane laws of our day.  So far as this first recorded action is concerned, his name may have been anything:  William Shakespeare or Geoffrey Chaucer or Charles Dickens or Henry Fielding, or any of those common names that crop up everywhere in the populace. The important thing about him is that he asked for a glass of beer. The still more important thing about him is that he drank it; and the most important thing of all is that he spat it out again (I regret to say) and threw the pewter mug at the publican. For the beer was abominably bad.
 

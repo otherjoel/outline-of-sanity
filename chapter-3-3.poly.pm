@@ -1,7 +1,7 @@
 #lang pollen 
 
-III. SOME ASPECTS OF THE LAND
-3. THE REAL LIFE ON THE LAND
+◊define-meta[part]{III. SOME ASPECTS OF THE LAND}
+◊define-meta[chapter]{3.3. The Real Life on the Land}
 
 We offer one among many proposals for undoing the evil of capitalism, on the ground that ours is the only one that really is a proposal for undoing it.  The others are all proposals for overdoing it. The natural thing to do with a wrong operation is to reverse it. The natural action, when property has fallen into fewer hands, is to restore it to more numerous hands.  If twenty men are fishing in a river in such a crowd that their fishing-lines all get entangled into one, the normal operation is to disentangle them, and sort them out so that each fisherman has his own fishing-line. No doubt a collectivist philosopher standing on the bank might point out that the interwoven lines were now practically a net; and might be trailed along by a common effort so as to drag the river-bed. But apart from his scheme being doubtful in practice, it insults the intellectual instincts even in principle.  It is not putting things right to take a doubtful advantage of their being wrong; and it does not even sound like a sane design to exaggerate an accident. Socialism is but the completion of the capitalist concentration; yet that concentration was itself effected blindly like a blunder. Now this naturalness, in the idea of undoing what was ill done would appeal, I think, to many natural people who feel the long-winded sociological schemes to be quite unnatural. For that reason I suggest in this section that many ordinary men, landlords and labourers, Tories and Radicals, would probably help us in this task, if it were separated from party politics and from the pride and pedantry of the intellectuals.
 

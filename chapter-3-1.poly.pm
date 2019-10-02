@@ -1,7 +1,7 @@
 #lang pollen 
 
-III. SOME ASPECTS OF THE LAND
-1. THE SIMPLE TRUTH
+◊define-meta[part]{III. SOME ASPECTS OF THE LAND}
+◊define-meta[chapter]{3.1. The Simple Truth}
 
 All of us, or at least all those of my generation, heard in our youth an anecdote about George Stephenson, the discoverer of the Locomotive Steam-Engine. It was said that some miserable rustic raised the objection that it would be very awkward if a cow strayed on the railway line, whereupon the inventor replied, "It would be very awkward for the cow."  It is supremely characteristic of his age and school that it never seemed to occur to anybody that it might be rather awkward for the rustic who owned the cow.
 
