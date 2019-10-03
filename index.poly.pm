@@ -3,7 +3,7 @@
 ◊(define-meta level "top")
 
 ◊frontmatter{
-◊i{G. K. Chesterton}
+G. K. Chesterton
 ◊(br)
 1927
 }

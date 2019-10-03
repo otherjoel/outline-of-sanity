@@ -12,11 +12,43 @@
 }
 }|)
 
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/IBMPlexSans-Bold.woff2") format("woff2"),
+       url("fonts/IBMPlexSans-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/IBMPlexSans-Light.woff2") format("woff2"),
+       url("fonts/IBMPlexSans-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/IBMPlexSerif-Italic.woff2") format("woff2"),
+       url("fonts/IBMPlexSerif-Italic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/IBMPlexSerif-Regular.woff2") format("woff2"),
+       url("fonts/IBMPlexSerif-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: italic;
+  font-weight: 200;
+  src: url("fonts/IBMPlexSerif-ExtraLightItalic.woff2") format("woff2"),
+       url("fonts/IBMPlexSerif-ExtraLightItalic.woff") format("woff"); }
+
 ◊(define PlexSerif "'IBM Plex Serif'")
-◊(define PlexSerifExLight "'IBM Plex Serif ExtraLight'")
 ◊(define PlexSans  "'IBM Plex Sans'")
-◊(define PlexSansLight "'IBM Plex Sans Light'")
-◊(define PlexSansExLight "'IBM Plex Sans ExtraLight'")
 
 html { font-size: 16px; }
 ◊non-mobile["html" 667]{ font-size: 2.4vw; }
@@ -50,7 +82,8 @@ main {
 }
 
 div.frontmatter {
-  font-family: ◊PlexSansLight;
+  font-family: ◊PlexSans;
+  font-weight: 300;
   text-align: center;
   margin-bottom: 2rem; 
 }
@@ -99,6 +132,7 @@ header h1 {
   font-family: ◊PlexSans;
   font-size: 1rem;
   letter-spacing: 0.08rem;
+  font-weight: bold;
 }
 
 body.top header h1 {
@@ -145,13 +179,14 @@ footer nav {
 
 h2.chapter-title {
   grid-area: chapter-title;  
-  font-family: ◊PlexSerifExLight;
+  font-family: ◊PlexSerif;
+  font-weight: 200;
+  font-style: italic;
   font-size: 2rem;
   color: #333;
   letter-spacing: -1px;
   margin: 0;
   margin-left: 1rem;
-  font-style: italic;
 }
 
 h2 .chapter-outline-num {
@@ -208,7 +243,7 @@ footer {
 
 footer>a {
   font-family: ◊PlexSans;
-  font-style: italic;
+  font-weight: bold;
 }
 
 body.colophon footer { display: none; }
