@@ -6,6 +6,7 @@
          threading
          racket/list
          racket/string
+         racket/function
          net/uri-codec
          pollen/tag
          pollen/core
@@ -35,23 +36,23 @@
   (define counter (number->string graf-count))
   (cond [(equal? 'p (get-tag tx))
          (begin0
-           `(p [[id ,counter]]
-               (a [[class "graf-link"]
-                   [href ,(string-append "#" counter)]] "¶")
-               ,@(get-elements tx))
-           (set! graf-count (+ 1 graf-count)))]
-        [else tx]))
+           (nonbreaking-last-space
+            `(p [[id ,counter]]
+                (a [[class "graf-link"]
+                    [href ,(string-append "#" counter)]] "¶")
+                ,@(get-elements tx)))
+            (set! graf-count (+ 1 graf-count)))]
+[else tx]))
 
 (define verse (default-tag-function 'pre #:class "verse"))
 
-;; "I. SOME IDEAS" → "index.html#SomeIdeas"
-(define (part-href [part-title #f])
+;; "I. SOME IDEAS" → "SomeIdeas"
+(define (part-anchor [part-title #f])
   (and~> (or part-title (hash-ref (current-metas) 'part #f))
          string-split
          (drop _ 1)
          (apply string-append _)
-         uri-encode
-         (string-append "index.html#" _)))
+         uri-encode))
 
 (define (chapter-title)
   (let* ([meta (hash-ref (current-metas) 'chapter)]
@@ -60,3 +61,22 @@
          [title (string-join (drop bits 1))])
     `(h2 [[class "chapter-title"]] (span [[class "chapter-outline-num"]] ,outline-num)
          " " ,title)))
+
+(define (toc-part part-title . elems)
+  (define lines (map toc-chapter (filter (compose not whitespace?) elems)))
+  (cond
+    [(null? elems)
+     `(h2 [[id ,(part-anchor part-title)] [class "toc"]]
+          (a [[href "chapter-6.html"]] ,part-title))]
+    [else
+     `(@ (h2 [[id ,(part-anchor part-title)] [class "toc"]]
+             ,(string-join (rest (string-split part-title))))
+         (ul [[style "list-style-type: none"]] ,@lines))]))
+
+(define (toc-chapter chapter-num+title)
+  (let* ([bits (string-split chapter-num+title)]
+         [nums (string-split (first bits) ".")]
+         [chapter-name (string-join (rest bits))]
+         [chapter-page (apply format "chapter-~a-~a.html" nums)])
+    `(li (span [[style "color: #999"]] ,(first bits)) " "
+         (a [[href ,chapter-page]] ,chapter-name))))
