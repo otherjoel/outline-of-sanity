@@ -45,7 +45,7 @@
             } </div>
         </nav>
     ◊when/splice[(equal? "top" (hash-ref metas 'level #f))]{
-        <a href="colophon.html" id="COLOPHON">Colophon</a>
+        <a href="about.html" id="ABOUT">About</a>
     }
     </footer>
 </body>

@@ -1,7 +1,7 @@
 #lang pollen
 
-◊(define-meta level "colophon")
-◊(define-meta part "◊ COLOPHON")
+◊(define-meta level "about")
+◊(define-meta part "◊ ABOUT")
 
 This online edition of ◊i{The Outline of Sanity} is adapted from the plain text copy at ◊a[#:href "http://www.gkc.org.uk/gkc/books/Sanity.txt"]{◊tt{gkc.org.uk}}. Published with ◊a[#:href "https://pollenpub.com"]{Pollen}. The source code is ◊a[#:href "https://github.com/otherjoel/outline-of-sanity"]{on GitHub}.
 
