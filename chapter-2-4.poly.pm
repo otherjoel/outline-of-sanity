@@ -19,7 +19,7 @@ The common sense of Christendom, for ages on end, has assumed that it was as pos
 
 When we say that a corner should be treated as a conspiracy, we are always told that the conspiracy is too elaborate to be unravelled. In other words, we are told that the conspirators are too conspiratorial to be caught.  Now it is exactly at this point that my simple and childlike confidence in the business expert entirely breaks down.  My attitude, a moment ago trustful and confiding, becomes disrespectful and frivolous.  I am willing to agree that I do not know much about the details of business, but not that nobody could possibly ever come to know anything about them. I am willing to believe that there are people in the world who like to feel that they depend for the bread of life on one particular bounder, who probably began by making large profits on short weight. I am willing to believe that there are people so strangely constituted that they like to see a great nation held up by a small gang, more lawless than brigands but not so brave.  In short, I am willing to admit that there may be people who trust in Trusts. I admit it with tears, like those of the benevolent captain in the Bab Ballads who said:
 
-verse{"It's human nature p'raps; if so,
+◊verse{"It's human nature p'raps; if so,
 Oh, isn't human nature low?"}
 
 I myself doubt whether it is quite so low as that; but I admit the possibility of this utter lowness; I admit it with weeping and lamentation.  But when they tell me it would be impossible to find out whether a man is making a Trust or not---that is quite another thing. My demeanour alters.  My spirits revive.  When I am told that if cornering were a crime nobody could be convicted of that crime--- then I laugh; nay, I jeer.
