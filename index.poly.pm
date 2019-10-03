@@ -2,13 +2,11 @@
 
 ◊(define-meta level "top")
 
-G. K. CHESTERTON
-
-THE OUTLINE OF SANITY
-
-New York
-DODD, MEAD & COMPANY
+◊frontmatter{
+◊i{G. K. Chesterton}
+◊(br)
 1927
+}
 
 ◊toc-part["I. SOME GENERAL IDEAS"]{
    1.1. The Beginning of the Quarrel

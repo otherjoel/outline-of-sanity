@@ -12,19 +12,33 @@
 }
 }|)
 
-@font-face {
-  font-family: 'IBM Plex Serif';
-  src: local('IBM Plex Serif');
-  }
+◊(define PlexSerif "'IBM Plex Serif'")
+◊(define PlexSerifExLight "'IBM Plex Serif ExtraLight'")
+◊(define PlexSans  "'IBM Plex Sans'")
+◊(define PlexSansLight "'IBM Plex Sans Light'")
+◊(define PlexSansExLight "'IBM Plex Sans ExtraLight'")
 
 html { font-size: 16px; }
 ◊non-mobile["html" 667]{ font-size: 2.4vw; }
 ◊non-mobile["html" 1000]{ font-size: 24px; }
 
 body {
-  font-family: 'IBM Plex Serif', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: ◊PlexSerif;
   color: black;
   padding: 0 1rem;
+
+/* Next 3 rules used to make footer ‘sticky’ to the bottom even when there’s not
+ * enough content to fill the window.
+ * See https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+ */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body.colophon {
+  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: 0;
 }
 
 main {
@@ -32,6 +46,13 @@ main {
   line-height: 1.4rem;
   margin: 0 auto;
   hyphens: auto;
+  flex: 1;  /* For sticky footer */
+}
+
+div.frontmatter {
+  font-family: ◊PlexSansLight;
+  text-align: center;
+  margin-bottom: 2rem; 
 }
 
 ul.toc {
@@ -43,7 +64,7 @@ ul.toc li {
 }
 
 h2.toc {
-  font-family: 'IBM Plex Sans';
+  font-family: ◊PlexSans;
   font-weight: bold;
   font-size: 1rem;
   letter-spacing: 0.08rem;
@@ -75,7 +96,7 @@ a.graf-link:link, a.graf-link:visited, a.graf-link:active {
 a:hover, a.graf-link:hover { color: #85144b !important; }
 
 header h1 {
-  font-family: 'IBM Plex Sans';
+  font-family: ◊PlexSans;
   font-size: 1rem;
   letter-spacing: 0.08rem;
 }
@@ -83,6 +104,7 @@ header h1 {
 body.top header h1 {
   text-align: center;
   font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
 a.homelink {
@@ -93,6 +115,20 @@ a.homelink {
 a.partlink {
   color: #AAAAAA;
 }
+
+pre.verse {
+  font-family: ◊PlexSerif;
+  font-size: 1.1rem;
+  font-style: italic;
+  width: auto;
+  margin: 1.4rem auto;
+  display: table;
+  white-space: pre-wrap;
+/* Whitespace is preserved by the browser.
+   Text will wrap when necessary, and on line breaks */
+}
+
+body.top nav { display: none; }
 
 header nav {
   display: grid;
@@ -109,7 +145,7 @@ footer nav {
 
 h2.chapter-title {
   grid-area: chapter-title;  
-  font-family: 'IBM Plex Serif ExtraLight';
+  font-family: ◊PlexSerifExLight;
   font-size: 2rem;
   color: #333;
   letter-spacing: -1px;
@@ -119,7 +155,7 @@ h2.chapter-title {
 }
 
 h2 .chapter-outline-num {
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, serif;
   font-weight: normal;
   font-style: normal;
   font-size: 2.5rem;
@@ -159,9 +195,20 @@ a.pageturn:hover {
 }
 
 footer {
-  font-size: smaller;
+  font-size: 0.7rem;
+  text-align: center;
   width: calc(100% + 2.6rem);
   margin-left: -1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
   background: #f5f5f5;
+  color: #f5f5f5;
   padding: 1rem 0;
 }
+
+footer>a {
+  font-family: ◊PlexSans;
+  font-style: italic;
+}
+
+body.colophon footer { display: none; }

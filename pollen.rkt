@@ -26,6 +26,7 @@
 (define (root . elems)
   `(root
     ,@(~> (decode-elements elems
+                           #:exclude-tags '(div)
                            #:txexpr-elements-proc decode-paragraphs
                            #:string-proc (compose smart-dashes smart-ellipses smart-quotes))
           (decode-elements _ #:txexpr-proc paragraph-anchor))))
@@ -45,6 +46,7 @@
 [else tx]))
 
 (define verse (default-tag-function 'pre #:class "verse"))
+(define frontmatter (default-tag-function 'div #:class "frontmatter"))
 
 ;; "I. SOME IDEAS" → "SomeIdeas"
 (define (part-anchor [part-title #f])

@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="◊(hash-ref metas 'level "")">
+<body class="◊(hash-ref metas 'level "") site">
     <header>
         <h1><a class="homelink" href="index.html">The Outline of Sanity</a>
         ◊when/splice[(hash-ref metas 'part #f)]{
@@ -44,7 +44,9 @@
                 <span class="arrowtext">Next Chapter</span></a>
             } </div>
         </nav>
-
+    ◊when/splice[(equal? "top" (hash-ref metas 'level #f))]{
+        <a href="colophon.html" id="COLOPHON">Colophon</a>
+    }
     </footer>
 </body>
 
