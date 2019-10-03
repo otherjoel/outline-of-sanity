@@ -8,15 +8,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="◊(hash-ref metas 'level "")">
     <header>
         <h1><a class="homelink" href="index.html">The Outline of Sanity</a>
-        ◊when/splice[(hash-ref metas 'part)]{
-        : <a class="partlink" href="◊part-href[]">◊hash-ref[metas 'part]</a>
+        ◊when/splice[(hash-ref metas 'part #f)]{
+        : <a class="partlink" href="index.html#◊part-anchor[]">◊hash-ref[metas 'part]</a>
         }
         </h1>
         <nav>
-            ◊when/splice[(hash-ref metas 'chapter)]{ ◊(->html (chapter-title)) }
+            ◊when/splice[(hash-ref metas 'chapter #f)]{ ◊(->html (chapter-title)) }
 
             <div class="prev">◊when/splice[(previous here)]{
                 <a class="pageturn" href="◊previous[here]">←<br>

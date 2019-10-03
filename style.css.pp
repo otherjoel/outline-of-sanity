@@ -1,7 +1,7 @@
 #lang pollen
 
-◊; SPDX-License-Identifier: BlueOak-1.0.0
-◊; This file is licensed under the Blue Oak Model License 1.0.0.
+ /* SPDX-License-Identifier: BlueOak-1.0.0
+  * This file is licensed under the Blue Oak Model License 1.0.0. */
 
 ◊(define (non-mobile selector width . strs)
   ◊string-append|{
@@ -34,10 +34,35 @@ main {
   hyphens: auto;
 }
 
+ul.toc {
+  list-style-type: none;
+}
+
+ul.toc li {
+  line-height: 1.7rem;
+}
+
+h2.toc {
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+}
+
 a:link, a:visited, a:active {
   color: #85144b;
   text-decoration: none;
   transition: 0.3s;
+}
+
+:target {
+    animation: hilite 2.5s;
+}
+
+@keyframes hilite {
+    0% {background: transparent;}
+    10% {background: #feffc1;}
+    100% {background: transparent;}
 }
 
 a.graf-link:link, a.graf-link:visited, a.graf-link:active {
@@ -52,7 +77,12 @@ a:hover, a.graf-link:hover { color: #85144b !important; }
 header h1 {
   font-family: 'IBM Plex Sans';
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.08rem;
+}
+
+body.top header h1 {
+  text-align: center;
+  font-size: 4rem;
 }
 
 a.homelink {
