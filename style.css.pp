@@ -68,7 +68,7 @@ body {
   flex-direction: column;
 }
 
-body.colophon {
+body.about {
   font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   min-height: 0;
 }
@@ -246,4 +246,4 @@ footer>a {
   font-weight: bold;
 }
 
-body.colophon footer { display: none; }
+body.about footer { display: none; }
